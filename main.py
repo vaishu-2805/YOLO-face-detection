@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load the pre-trained YOLOv12 face detection model (adjust path if needed)
-model = YOLO('yolov12n-face.pt')  # Use n for nano (fastest), or s/m/l for better accuracy
+model = YOLO('yolov12m-face.pt')  # Use n for nano (fastest), or s/m/l for better accuracy
 
 # Open the camera (0 for default webcam; change for external/ATM camera)
 cap = cv2.VideoCapture(0)
